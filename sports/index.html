@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="find">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Search by Name" />
+            <button class="submit-btn">Go!</button>
+            <h1 class="display-name"></h1>
+            <h2 class="display-sports"></h2>
+            <h3 class="display-achievements"></h3>
+        </div>
+
+        <div class="add">
+            <div class="add-name add-info">
+                <label for="name-add">Name: </label>
+                <input
+                    type="text"
+                    id="name-add"
+                    placeholder="Add a person (Name)"
+                />
+            </div>
+
+            <div class="add-sports add-info">
+                <label for="sports-add">Sports: </label>
+                <input
+                    type="text"
+                    id="sports-add"
+                    placeholder="Add a person (Sports)"
+                />
+            </div>
+
+            <div class="add-achievements add-info">
+                <label for="achievements-add">Achievements: </label>
+                <input
+                    type="text"
+                    id="achievements-add"
+                    placeholder="Achievements: comma-separated (eg: coach, player)"
+                />
+            </div>
+
+            <button class="btn-submit-info">Add</button>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

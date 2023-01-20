@@ -1,0 +1,50 @@
+label {
+    font-family: Montserrat;
+    display: inline-block;
+    width: 150px;
+}
+
+input[type='text'] {
+    display: inline-block;
+    width: 400px;
+
+    border: 1px solid rgb(120, 120, 120);
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.add-info {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    border: 1px solid rgb(120, 120, 120);
+    background: white;
+    cursor: pointer;
+}
+
+.btn-submit-info {
+    border: 1px solid rgb(120, 120, 120);
+    background: white;
+    cursor: pointer;
+}
+
+.display-name {
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+
+.display-sports {
+    margin-top: 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+
+.display-achievements {
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    font-family: Montserrat;
+    list-style: none;
+}

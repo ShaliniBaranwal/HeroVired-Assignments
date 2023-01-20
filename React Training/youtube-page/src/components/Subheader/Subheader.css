@@ -1,0 +1,22 @@
+.subheader {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.subheader > span.subheader-selection-chip {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: rgb(233, 233, 233);
+    transition: background 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.subheader > span.subheader-selection-chip:hover {
+    background: rgb(216, 216, 216);
+}
+
+.subheader > span.subheader-selection-chip.selected {
+    background: rgb(33 33 33);
+    color: white;
+}

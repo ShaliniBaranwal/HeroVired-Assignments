@@ -1,0 +1,30 @@
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: rgb(145 161 82);
+    color: black;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px 100px;
+}

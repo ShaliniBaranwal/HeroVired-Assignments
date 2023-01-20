@@ -1,0 +1,15 @@
+#name {
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#d1 {
+    display: block;
+}
+
+.submit-button {
+    margin: 50px;
+    margin-bottom: 50px;
+    /* padding: 5px; */
+}
